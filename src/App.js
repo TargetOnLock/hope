@@ -4,10 +4,30 @@ import { FaTwitter, FaTelegramPlane } from 'react-icons/fa';
 import walletLogo from './metamask.png';
 import baseEthLogo from './base.png';
 import uniswapLogo from './uniswap.png';
+import React, { useEffect } from 'react';
+
+// Function to create shooting stars
+const createShootingStar = () => {
+  const star = document.createElement('div');
+  star.className = 'shooting-star';
+  star.style.left = `${Math.random() * 100}vw`;
+  star.style.top = `${Math.random() * 100}vh`;
+  star.style.animationDuration = `${Math.random() * 1 + 0.5}s`; // Random duration
+  document.querySelector('.stars-container').appendChild(star);
+  setTimeout(() => {
+    star.remove(); // Remove star after animation
+  }, 1000); // Match with animation duration
+};
 
 function App() {
+  useEffect(() => {
+    const interval = setInterval(createShootingStar, 300); // Create a star every 300ms
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
   return (
     <div className="App">
+      <div className="stars-container"></div> {/* Stars container */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome to Based Hope Token!</h1>

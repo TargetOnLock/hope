@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 60vmin;
+  max-height: 300px;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #21a1f1;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: #61dafb;
+  font-size: 2em;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #21a1f1;
+}
+
+main {
+  margin: 20px 0;
+}
+
+section {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: #61dafb;
+}
+
+.tokenomics-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomics-logos, .how-to-buy-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.token-logo, .buy-logo {
+  width: 50px;
+  margin: 0 10px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+.tokenomics {
+  background-color: #444;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tokenomics-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomics-item {
+  background-color: #555;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  text-align: center;
+}
+
+.tokenomics-item h3 {
+  margin: 0;
+  color: #61dafb;
+}
+
+.tokenomics-item p {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.how-to-buy {
+  background-color: #444;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.how-to-buy-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-to-buy-item {
+  background-color: #555;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.how-to-buy-item p {
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.buy-logo {
+  width: 40px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* About Section Styling */
+.about {
+  background-color: #444; /* Darker background for about section */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the section */
+  margin: 20px 0; /* Margin above and below the section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+}
+
+.about p {
+  background-color: #555; /* Slightly lighter background for paragraphs */
+  border-radius: 8px; /* Rounded corners for paragraphs */
+  padding: 15px; /* Padding inside paragraphs */
+  margin: 10px 0; /* Space between paragraphs */
+  width: 80%; /* Width of the paragraph containers */
+  text-align: center; /* Center text */
+  color: #ffffff; /* White color for text */
+  font-size: 1.1em; /* Slightly larger font for readability */
+}
+
+/* About Section Item Styling */
+.about-item {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+  margin: 10px 0; /* Space between items */
+}
+
+.about-meme {
+  width: 80%; /* Set a width for memes */
+  max-width: 300px; /* Max width for memes */
+  margin-top: 10px; /* Space above memes */
+  border-radius: 8px; /* Rounded corners for memes */
+}
+
+/* Meme Gallery Styling */
+.meme-gallery {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  justify-content: center; /* Center align items */
+  margin-top: 20px; /* Space above the gallery */
+}
+
+.gallery-meme {
+  width: 150px; /* Set a width for gallery memes */
+  margin: 10px; /* Space between memes */
+  border-radius: 8px; /* Rounded corners for memes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
